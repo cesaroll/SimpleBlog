@@ -14,7 +14,9 @@ namespace SimpleBlog.Controllers
         /// <returns></returns>
         public ActionResult Index()
         {
-            return Content("Hello, world!");
+            //return Content("Hello, world!");
+
+            return View();
         }
     }
 }

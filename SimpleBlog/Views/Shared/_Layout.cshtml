@@ -1,0 +1,33 @@
+﻿@using System.Web.Razor.Parser
+@{
+    Layout = null; //Top Layout
+}
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>@ViewBag.Title - SimpleBlog</title>
+    </head>
+    <body>
+        <div>
+            <header>
+                <h1>
+                    <a href="@Url.RouteUrl("home")">Simple Blog</a>
+                </h1>
+                <a href="@Url.RouteUrl("login")">login</a>
+            </header>
+              
+            <!-- Insert View Here -->
+            @RenderBody()
+            
+            <footer>
+                &copy; @DateTime.UtcNow.Year - Me
+            </footer>
+
+        </div>
+        
+        @RenderSection("Scripts", false)
+
+    </body>
+</html>

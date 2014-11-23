@@ -1,2 +1,29 @@
 <?xml version="1.0"?>
-<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>c:\my_data\tech\workspaces\comprehensiveaspnetmvc\simpleblog\simpleblog\app_start\routeconfig.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\my_data\tech\workspaces\comprehensiveaspnetmvc\simpleblog\simpleblog\controllers\postscontroller.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\my_data\tech\workspaces\comprehensiveaspnetmvc\simpleblog\simpleblog\controllers\authcontroller.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\my_data\tech\workspaces\comprehensiveaspnetmvc\simpleblog\simpleblog\areas\admin\adminarearegistration.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\my_data\tech\workspaces\comprehensiveaspnetmvc\simpleblog\simpleblog\areas\admin\controllers\userscontroller.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\my_data\tech\workspaces\comprehensiveaspnetmvc\simpleblog\simpleblog\areas\admin\controllers\postscontroller.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\My_Data\Tech\Workspaces\ComprehensiveASPNetMVC\SimpleBlog\SimpleBlog\Views\Posts\Index.cshtml</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\my_data\tech\workspaces\comprehensiveaspnetmvc\simpleblog\simpleblog\views\auth\login.cshtml</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>
