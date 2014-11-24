@@ -1,4 +1,5 @@
-﻿@using System.Web.Razor.Parser
+﻿@using System.Web.Optimization
+
 @{
     Layout = null; //Top Layout
 }
@@ -8,12 +9,15 @@
 <html>
     <head>
         <title>@ViewBag.Title - SimpleBlog</title>
+        
+        @Styles.Render("~/styles")
     </head>
     <body>
         <div>
             <header>
                 <h1>
                     <a href="@Url.RouteUrl("home")">Simple Blog</a>
+                    <i class="glyphicon glyphicon-bell"></i>
                 </h1>
                 
                 @if (User.Identity.IsAuthenticated)
@@ -43,6 +47,7 @@
 
         </div>
         
+        @Scripts.Render("~/scripts");
         @RenderSection("Scripts", false)
 
     </body>
