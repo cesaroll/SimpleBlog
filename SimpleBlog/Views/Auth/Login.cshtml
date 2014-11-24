@@ -1,7 +1,27 @@
-﻿
+﻿<!-- Strongly Typed View-->
+@model SimpleBlog.ViewModels.AuthLogin
+
 @{
     ViewBag.Title = "Login";
 }
 
+<div>
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary()
+        
+        <div>
+            @Html.LabelFor(x => x.Username)
+            @Html.EditorFor(x => x.Username)
+        </div>
 
-<p>THIS IS THE LOGIN VIEW</p>
+        <div>
+            @Html.LabelFor(x => x.Password)
+            @Html.EditorFor(x => x.Password)
+        </div>
+
+        <div>
+            <input type="submit" value="Login" />
+        </div>
+    }
+</div>

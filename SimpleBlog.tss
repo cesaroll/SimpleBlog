@@ -25,5 +25,14 @@
     <ArrayOfString>
       <string>c:\my_data\tech\workspaces\comprehensiveaspnetmvc\simpleblog\simpleblog\views\auth\login.cshtml</string>
     </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\my_data\tech\workspaces\comprehensiveaspnetmvc\simpleblog\simpleblog\views\shared\_layout.cshtml</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\my_data\tech\workspaces\comprehensiveaspnetmvc\simpleblog\simpleblog\views\_viewstart.cshtml</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>c:\my_data\tech\workspaces\comprehensiveaspnetmvc\simpleblog\simpleblog\views\web.config</string>
+    </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
