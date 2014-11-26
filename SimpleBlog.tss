@@ -1,11 +1,2 @@
 <?xml version="1.0"?>
-<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ArrayOfArrayOfString>
-    <ArrayOfString>
-      <string>C:\My_Data\Tech\Workspaces\ComprehensiveASPNetMVC\SimpleBlog\SimpleBlog\Content\Styles\bootstrap.css</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>C:\My_Data\Tech\Workspaces\ComprehensiveASPNetMVC\SimpleBlog\SimpleBlog\Views\Shared\_Layout.cshtml</string>
-    </ArrayOfString>
-  </ArrayOfArrayOfString>
-</ArrayOfArrayOfArrayOfString>
+<ArrayOfArrayOfArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
