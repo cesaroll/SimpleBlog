@@ -23,7 +23,7 @@
                 @if (User.Identity.IsAuthenticated)
                 {
                     <p>Welcome back, @User.Identity.Name</p>
-                    <a href="@Url.RouteUrl("logout")">Logout</a>
+                    <a href="@Url.RouteUrl("Logout")">Logout</a>
 
                     if (User.IsInRole("admin"))
                     {
@@ -32,7 +32,7 @@
                 }
                 else
                 {
-                    <a href="@Url.RouteUrl("login")">login</a>
+                    <a href="@Url.RouteUrl("login")">Login</a>
                 }
 
                 
