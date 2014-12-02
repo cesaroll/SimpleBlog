@@ -23,7 +23,7 @@
                 <td>@user.Id</td>
                 <td>@user.Username</td>
                 <td>@user.Email</td>
-                <td>{todo}</td>
+                <td>@String.Join(", ", user.Roles.Select(r => r.Name))</td>
                 <td>
                     <div class="btn-group">
                         <a href="@Url.Action("edit", new{user.Id})" class="btn btn-xs btn-primary">
