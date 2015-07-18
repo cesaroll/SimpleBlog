@@ -204,6 +204,8 @@
     <Content Include="Scripts\ckeditor\plugins\wsc\README.md" />
     <Content Include="Scripts\ckeditor\README.md" />
     <Content Include="Scripts\ckeditor\skins\moono\readme.md" />
+    <None Include="Properties\PublishProfiles\cesblog - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\cesblog - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\CesDevServ.pubxml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="LICENSE.txt" />
